@@ -1,0 +1,75 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+.bungee-hairline-regular {
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#log{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 3fr  1fr 3fr;
+    grid-template-rows: 10% 1fr 10% ;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 10vw;
+    font-family: "Bungee Hairline";
+}
+
+
+p{
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#log form{
+    grid-area: 2 / 2 / 2 / 2;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#log form input{
+    height: 10%;
+    border-color: blanchedalmond;
+    border-radius: 50px;
+}
+
+::placeholder{
+    text-align: center;
+}

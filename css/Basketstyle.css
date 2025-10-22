@@ -1,0 +1,203 @@
+div#banner{
+    background-image:url(../Pictures/fondwtf.png);
+    background-size: cover;
+    text-align: right;
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.button {
+    font-family: "Bungee Hairline", sans-serif;
+    background: none;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 25px;
+    display: inline-block;
+}
+a:hover{
+    color: #575757 !important;
+}
+
+#logout > a{
+    /*background-color: grey;*/
+    font-size: 15px;
+}
+
+
+div#logo > img{
+    /*background-color: aqua;*/
+    width: 100px;
+}
+
+
+#global{
+    display:flex;
+    height: 70vh;
+}
+#pannier{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.livraison{
+    background-color: #EEEE;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.livraison > img{
+    width: 5%;
+    padding-left: 10px;
+}
+.livraison > p{
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 2vw;
+}
+
+.wrapper{
+    display: flex;
+    padding: 3vw;
+    align-items: center;
+    width: 100%;
+}
+
+.doodle > img{
+    width: 59%;
+}
+.doodle{
+    text-align: center;
+    width: 40%;
+}
+
+.text{
+    height: 100%;
+    align-content: center;
+}
+.text > p{
+    font-size: 2vw;
+    font-family:"Bebas Neue", sans-serif;
+    margin: 0;
+    
+}
+#HAHA{
+    color: #D0D0D0;
+    font-size: 1vw;
+}
+
+.boutton{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boutton > a{
+    background-color: #D0D0D0;
+    font-size: 3vw;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 600;
+}
+
+.info{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin:10% 0;
+    padding: 20px;
+}
+
+.summary > p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2vw;
+}
+.prix > button{
+    background-color: #D0D0D0;
+    border-radius: 25px;
+    font-size: 2vw;
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 600;
+}
+.prix{
+    text-align: center;
+}
+.prix > button:hover{
+    color: white;
+}
+
+.terms{
+    margin: 5px;
+    color: #959595;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1vw;
+    font-style: oblique;
+}
+
+
+#glob{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    
+}
+
+#bannerend{
+    background-image: url(../Pictures/fondwtf.png);
+    background-size: cover;
+    height: 20vh;
+}
+h1{
+    font-family: "Bungee Hairline", sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+#contact{
+    font-family: "Bungee Hairline", sans-serif;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    margin: 0;
+    font-weight: 600;
+}
+.reseaux{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.reseaux > img{
+    height: 40px;
+    width: 40px;
+}
+
