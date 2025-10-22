@@ -87,7 +87,15 @@ This will allow PHP endpoints under the `php/` folder to run (if referenced by t
 ---
 
 ## Screenshots
-Add your screenshots here. The site is not online yet and not fully functional, so screenshots should show the current state of the prototype.
+
+- Login :
+
+<img src=LoginScreen.png alt="LoginScreen">
+  
+- Home :
+
+<img src=HomeScreen.png alt="HomeScreen">
+  
 
 Example (replace with your own images):
 ```markdown
